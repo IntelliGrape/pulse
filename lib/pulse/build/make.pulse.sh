@@ -18,6 +18,9 @@ java -jar $BUILD_DIR/compiler.jar \
 --js=../src/event/eventproperties.js \
 --js=../src/event/eventmanager.js \
 --js=../src/node.js \
+--js=../src/renderers/RendererInterface.js \
+--js=../src/renderers/impl/PixiRenderer.js \
+--js=../src/renderers/impl/PulseDefaultRenderer.js \
 --js=../src/asset/asset.js \
 --js=../src/asset/textfile.js \
 --js=../src/asset/texture.js \
@@ -51,6 +54,9 @@ java -jar $BUILD_DIR/compiler.jar \
 --js=../src/event/eventproperties.js \
 --js=../src/event/eventmanager.js \
 --js=../src/node.js \
+--js=../src/renderers/RendererInterface.js \
+--js=../src/renderers/impl/PixiRenderer.js \
+--js=../src/renderers/impl/PulseDefaultRenderer.js \
 --js=../src/asset/asset.js \
 --js=../src/asset/textfile.js \
 --js=../src/asset/texture.js \
