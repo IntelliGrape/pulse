@@ -21,6 +21,7 @@ java -jar $BUILD_DIR/compiler.jar \
 --js=../src/renderers/RendererInterface.js \
 --js=../src/renderers/impl/PixiRenderer.js \
 --js=../src/renderers/impl/PulseDefaultRenderer.js \
+--js=../src/renderers/enum/VisualObjectType.js \
 --js=../src/asset/asset.js \
 --js=../src/asset/textfile.js \
 --js=../src/asset/texture.js \
@@ -57,6 +58,7 @@ java -jar $BUILD_DIR/compiler.jar \
 --js=../src/renderers/RendererInterface.js \
 --js=../src/renderers/impl/PixiRenderer.js \
 --js=../src/renderers/impl/PulseDefaultRenderer.js \
+--js=../src/renderers/enum/VisualObjectType.js \
 --js=../src/asset/asset.js \
 --js=../src/asset/textfile.js \
 --js=../src/asset/texture.js \
